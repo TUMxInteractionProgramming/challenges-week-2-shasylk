@@ -1,0 +1,161 @@
+
+
+
+        /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*Global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+			margin: 0;
+			padding: 0;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+			
+			
+        }
+
+        h1 {
+            /* #2 App Bar Styles #colourful #app-bar * */
+            background-color: #3F51B5;
+            color: white;
+            
+        }
+       
+
+        /*styles for channel area*/
+		/* div for channels */
+
+		li{
+            /* #1 #Channel list item background */
+            background-color: #FFFFFF;
+			margin-bottom: 4px;
+			border-bottom: thin;
+			margin-left: 15px;
+		}
+		
+       ul .active {
+			border-left: 4px;
+			border-bottom-color: #3F51B5;
+}
+        ul
+        {/* #1 #Channel list background */
+            list-style-type:none;
+            
+        }
+		#tab-bar
+{
+	text-transform: uppercase;
+	background-color: white;
+	font-size: 13px;
+	
+	
+}
+        #tab-bar button
+		{
+            /* Tab bar */
+			margin-left: 16px;
+            background-color: #CDDC39;
+            color: black;
+			width: 33%;
+			height: 72px;
+			margin: 0 auto; 
+            /* #2 #font capital #letters */
+            
+        }
+		#tab-bar button .selected
+		{
+			border-bottom: 4px;
+			border-bottom-color: #3F51B5;
+			
+			
+		}
+        h2 {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        /*styles for chat area*/
+        p {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+		#channels
+        {
+        
+			padding: 15 px;
+				
+			
+        }
+
+        .message 
+        {
+            width: 80%;
+			margin-bottom: 5px;
+			font-size: medium;
+			background-color: white;
+			padding: 16px;
+			margin-left: 2.5%;
+			text-align: left;
+			
+		}
+		.message button
+		{
+			
+			background-color:#CDDC39;
+			color: black;
+			text-transform: uppercase;
+			font-style:normal;
+			font-size: larger;
+			margin-bottom: 8px;
+		}
+		.mymessage
+		{
+			width: 80%;
+			margin-bottom: 5px;
+			font-size: medium;
+			background-color: white;
+			padding: 16px;
+			margin-left: 17.5%;
+			text-align: left;
+		}
+		.mymessage button
+		{
+			background-color:#CDDC39;
+			color: black;
+			text-transform: uppercase;
+			font-style:normal;
+			font-size: larger;
+		}
+			h3 
+		{
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+           
+        }        
+
+
+        a href, strong {
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            text-transform: uppercase;
+        }
+
+
+        em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+
+        
